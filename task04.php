@@ -10,7 +10,7 @@ function whoami() {
     } elseif ($name !== "I have no name" && $age === "no age") {
         echo "Hi, my name is $name.";
     } else {
-        echo "I have no name and no age.";
+        echo "Hi, I have no name.";
     }
 }
 ?>
