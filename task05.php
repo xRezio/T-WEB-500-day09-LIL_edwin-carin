@@ -10,10 +10,10 @@ function whoami() {
 
     $intro = "Hi, my name is $name";
     if ($age !== "no age") {
-        $intro .= " and I’m $age years old";
+        $intro .= " and I'm $age years old.";
     }
     if (!empty($curriculum)) {
-        $intro .= ". I’m a student of $curriculum.";
+        $intro .= ". I'm a student of $curriculum.";
     }
 
     echo $intro;
